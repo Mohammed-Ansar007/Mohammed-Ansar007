@@ -1,0 +1,63 @@
+/* Reset styles */
+* {
+    margin: 25;
+    padding: 20;
+    box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+    font-family: Arial,sans-serif;
+    line-height: 1.6;
+    background-color: #ced8dc;
+}
+
+.container {
+    margin: auto;
+    padding:0%;
+}
+
+header {
+    background-color: #4ecf17;
+    color: #000000;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+nav{
+    text-decoration: none;
+   
+}
+nav ul {
+    list-style-type:none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #eee6e6;
+    color: black;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+}
+
+main {
+    padding:0;
+}
+
+footer {
+    background-color: #070606;
+    color: #ffffff;
+    text-align: center;
+
+}
